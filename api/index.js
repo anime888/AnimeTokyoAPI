@@ -561,6 +561,6 @@ app.get("/api/list/:variable/:page", (req, res) => {
   });
 });
 
- app.listen(8000, () => { console.log("[vcodes.xyz]: Website running on 80 port.")});
+ app.listen(4000, () => { console.log("[vcodes.xyz]: Website running on 4000 port.")});
 
 module.exports = app;
